@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_dark">
+
+    <com.bighead.app.ParticleView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:paddingHorizontal="32dp">
+
+        <ImageView
+            android:id="@+id/ivMainLogo"
+            android:layout_width="88dp"
+            android:layout_height="88dp"
+            android:src="@drawable/ic_launch"
+            android:background="@drawable/logo_bg"
+            android:padding="22dp"
+            android:layout_marginBottom="28dp" />
+
+        <TextView
+            android:id="@+id/tvMainTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BigHead"
+            android:textColor="@color/white"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tvMainSub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Панель работает поверх всех приложений"
+            android:textColor="@color/text_secondary"
+            android:textSize="13sp"
+            android:gravity="center"
+            android:layout_marginBottom="48dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnLaunch"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:text="ЗАПУСТИТЬ ОВЕРЛЕЙ"
+            android:textSize="15sp"
+            android:letterSpacing="0.1"
+            android:textStyle="bold"
+            app:backgroundTint="@color/accent_purple"
+            app:cornerRadius="18dp"
+            app:icon="@drawable/ic_launch"
+            app:iconGravity="textStart"
+            app:iconPadding="10dp"
+            android:layout_marginBottom="16dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnLogout"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="Сменить ключ"
+            android:textSize="13sp"
+            android:textColor="@color/text_muted"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            app:cornerRadius="16dp" />
+
+    </LinearLayout>
+
+</FrameLayout>

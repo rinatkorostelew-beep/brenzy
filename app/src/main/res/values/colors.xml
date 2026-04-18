@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_dark">#0A0E1A</color>
+    <color name="panel_bg">#141829</color>
+    <color name="slider_panel_bg">#0F1322</color>
+    <color name="accent_purple">#7C4DFF</color>
+    <color name="accent_purple_dark">#5C35CC</color>
+    <color name="accent_cyan">#00E5FF</color>
+    <color name="accent_cyan_dark">#00B8CC</color>
+    <color name="white">#FFFFFF</color>
+    <color name="text_muted">#5C647E</color>
+    <color name="text_secondary">#8A93A8</color>
+    <color name="toggle_track_bg">#0D1120</color>
+    <color name="error_red">#FF5252</color>
+    <color name="black">#000000</color>
+</resources>
